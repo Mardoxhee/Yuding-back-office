@@ -1,0 +1,68 @@
+.mainWrapper{
+    display:flex;
+    width:100%;
+   
+    height:auto;
+    .printed{
+        height:100%;
+        width:50%;
+        display:flex;
+        flex-direction:column;
+      
+      
+    }
+    .formSide{
+        width:40%;
+       box-sizing: border-box;
+       height:70vh;
+        border : 1px solid rgb(144, 144, 144);
+        margin-left: 10%;
+     
+        form{
+            height:auto;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .inputsWrapper{
+            margin-top: 1rem;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .textfieldIpt{
+                margin:10px;
+                width:45%;
+            }
+            label{
+                text-align:center;
+                margin:10px;
+            }
+            .textfieldFl{
+                margin:10px;
+                width:100%;
+            }
+        }
+        button{
+            border : none;
+     
+           padding:5px 20px;;
+           background-color:#F7941D;
+           color:white;
+      
+        }
+    }
+    .bloc{
+        display:flex;
+        flex-direction: column;
+        margin-bottom : 2rem;
+        h2{
+            font-size:1rem;
+        }
+        .cardContainer{
+            height:auto;
+        }
+    }
+
+
+}
