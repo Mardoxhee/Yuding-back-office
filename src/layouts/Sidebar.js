@@ -3,16 +3,15 @@ import { Link, useLocation } from "react-router-dom";
 
 const navigation = [
   {
+    title: "Restaurateur",
+    href: "/",
+    icon: "bi bi-house",
+  },
+  {
     title: "Dashboard",
     href: "/starter",
     icon: "bi bi-speedometer2",
   },
-  {
-    title: "Restaurateur",
-    href: "/restaurants",
-    icon: "bi bi-house",
-  },
-
   // {
   //   title: "Menu",
   //   href: "/menu",

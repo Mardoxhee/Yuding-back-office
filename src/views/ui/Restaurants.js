@@ -8,7 +8,6 @@ import BasicTabs from "./../../components/Shared/Tabs";
 const Restaurants = () => {
   return (
     <div className={styles.container}>
-      {/* <BasicTabs /> */}
       <BasicTabs />
     </div>
   );
